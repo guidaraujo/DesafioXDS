@@ -5,7 +5,6 @@ import android.content.Context
 class SharedPrefUtil {
     companion object {
         var KEY_TOKEN = "keytoken"
-        var KEY_PASS = "keypass"
         var NAME_PREFERENCES = "DESAFIO_XDS"
 
 

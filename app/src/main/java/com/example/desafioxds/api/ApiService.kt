@@ -16,6 +16,4 @@ interface ApiService {
     @GET("pizza")
     fun getPizzaList():Call<List<PizzaResponse>>
 
-    @GET("pizza")
-    fun pizzaString():Call<ResponseBody>
 }

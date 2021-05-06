@@ -123,19 +123,4 @@ class ApiRequest(context: Context) {
             }
         })
     }
-
-    fun pizzaString(listener: ResponseListener){
-        val service:ApiService = retrofit!!.create(ApiService::class.java)
-
-        service.pizzaString().enqueue(object : Callback<ResponseBody> {
-            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
-                Log.i("teste", "onResponse: "+response.body()?.string())
-            }
-
-            override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
-                Log.i("teste", "FALIUER")
-            }
-        })
-
-    }
 }
