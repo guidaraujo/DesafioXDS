@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DesafioXDS</string>
+    <string name="user_text">Usuário</string>
+    <string name="password_text">Senha</string>
+    <string name="enter_text">Entrar</string>
+    <string name="search_text">Procurar</string>
+
+    <!-- Api -->
+    <string name="unknown_exception">Erro Desconhecido</string>
+    <string name="unknown_host_exception">Falha no Servidor</string>
+    <string name="timeout_exception">Tempo Esgotado</string>
+    <string name="nullpointer_exception">Valor nulo</string>
+    <string name="json_exception">Erro ao enviar dados para o servidor</string>
+    <string name="jsonparse_exception">JsonParse Exception</string>
+    <string name="unknownhost_exception">UnknownHost Exception</string>
+    <string name="local_host">192.168.200.10</string>
+    <string name="local_port">1521</string>
+    <string name="local_sid">orclcdb</string>
+</resources>
